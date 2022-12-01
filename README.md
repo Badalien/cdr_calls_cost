@@ -9,3 +9,5 @@ You just need no define path to CDR file and prices file in variables: `cdr_file
 > Prices file should contain fields: `Code`, `Price`, and biling parametrs: 
 > - `MC` - the minimal number of seconds to be paid
 > - `CI` – charging interval (1 – rating per second)
+
+> Columns of CDR file should be defined in data structure CallRow(TypedDict), where keys is a columns header
